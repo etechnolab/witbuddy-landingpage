@@ -1,0 +1,63 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(images/banner.jpg) no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+h2{
+    text-shadow: 2px 2px #777237;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    color: #fefefe;
+    letter-spacing: 0.75px;
+}
+h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5rem;
+    color: blue;
+    text-shadow: 2px 2px #f1ecb5;
+}
+
+label{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fefefe;
+    letter-spacing: 0.75px;
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+    color: #fefefe;
+}
+
+.btn-trans{
+    border: 1px solid #212528;
+    background-color: #212528;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0 4px rgba(0,0,0,.12);
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+    min-width: 200px;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: all .4s ease-in-out;
+    font-family: inherit;
+}
+
+.btn-trans:hover{
+    border: 1px solid #ffcd02;
+    background-color: #ffcd02;
+    color: #000;
+    text-shadow: none;
+}
